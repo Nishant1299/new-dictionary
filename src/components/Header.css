@@ -1,0 +1,41 @@
+.SearchBar {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: center;
+}
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.DictionaryText {
+    background-color: #140F3B;
+    color: white;
+    padding: 10px 60px 10px 10px;
+    border-radius: 5px 0px 0px 5px;
+    border: 0px;
+    font-size: 16px;
+}
+.DictionaryText:hover {
+    background-color: rgb(44, 36, 129);
+}
+input {
+    padding: 10px;
+    width: 160%;
+    border: 0px;
+    font-size: 16px;
+}
+.SearchButton {
+    background-color: #DCDCDC;
+    border: 0px;
+    color: #E8671F;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.SearchButton:hover {
+    background-color: #E8671F;
+    color: white;
+}
